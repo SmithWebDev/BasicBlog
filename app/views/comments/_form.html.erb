@@ -24,7 +24,7 @@
   <div class="form-group">
     <%= form.hidden_field :post_id, value: @post.id %>
   </div>
-  <div class="actions">
-    <%= form.submit "Add Comment" %>
+  <div class="form-group">
+    <%= form.submit "Add Comment", class: "form-control"%>
   </div>
 <% end %>
