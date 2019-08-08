@@ -1,7 +1,8 @@
 5.times do
   User.create!(
     email: Faker::Internet.email,
-    password: "testuser1"
+    password: "testuser1",
+    username: Faker::Internet.username
   )
 end
 20.times do |post|
