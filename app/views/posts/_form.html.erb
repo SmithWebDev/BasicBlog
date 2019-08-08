@@ -17,8 +17,7 @@
   </div>
 
   <div class="form-group">
-    <%= form.label :author %>
-    <%= form.text_field :author, class: "form-control" %>
+    <%= form.hidden_field :user_id, value: current_user.id %>
   </div>
 
   <div class="form-group">
